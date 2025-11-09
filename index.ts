@@ -160,7 +160,7 @@ saveFileInput.addEventListener("change", () => {
 
         if (editor == null) {
             alert(
-                `Could not load save file・セーブファイルをロードできなかった\n\n${errors
+                `无法加载存档\n\n${errors
                     .map(([Editor, e]) => ` • ${Editor.NAME}: ${e}`)
                     .join("\n")}`
             );
